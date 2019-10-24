@@ -45,3 +45,15 @@ d:\我的文档\桌面\项目\E2YB\E2YB ECU UNLOCK\E2YB ECU UNLOCK\E2YB ECU UNLO
 d:\我的文档\桌面\项目\E2YB\E2YB ECU UNLOCK\E2YB ECU UNLOCK\E2YB ECU UNLOCK\E2YB ECU UNLOCK\EcuUnlock\StationConrol\obj\Debug\StationConrol.csproj.GenerateResource.Cache
 d:\我的文档\桌面\项目\E2YB\E2YB ECU UNLOCK\E2YB ECU UNLOCK\E2YB ECU UNLOCK\E2YB ECU UNLOCK\EcuUnlock\StationConrol\obj\Debug\StationConrol.dll
 d:\我的文档\桌面\项目\E2YB\E2YB ECU UNLOCK\E2YB ECU UNLOCK\E2YB ECU UNLOCK\E2YB ECU UNLOCK\EcuUnlock\StationConrol\obj\Debug\StationConrol.pdb
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\bin\Debug\StationConrol.dll
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\bin\Debug\StationConrol.pdb
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\StationConrol.csprojResolveAssemblyReference.cache
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\UserControl1.g.cs
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\StationConrol_MarkupCompile.cache
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\StationConrol_MarkupCompile.lref
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\UserControl1.baml
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\StationConrol.g.resources
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\StationConrol.Properties.Resources.resources
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\StationConrol.csproj.GenerateResource.Cache
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\StationConrol.dll
+d:\我的文档\桌面\新建文件夹 (3)\Code\EcuUnlock\StationConrol\obj\Debug\StationConrol.pdb

@@ -35,7 +35,7 @@ namespace EcuUnlock.ViewModels
         public void Op10Count()
         {
             int i = 0;
-            Action<int> action1 = ((qi) => this.OperationResultColor = new SolidColorBrush(Colors.LightGreen));
+            Action action1 = (() => this.OperationResultColor = new SolidColorBrush(Colors.LightGreen));
             Action action2 = (() => this.OperationResultColor = new SolidColorBrush(Colors.Red));
             while (true)
             {
