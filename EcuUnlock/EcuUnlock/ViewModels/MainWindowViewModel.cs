@@ -35,29 +35,18 @@ namespace EcuUnlock.ViewModels
         public void Op10Count()
         {
             int i = 0;
-            Action action1 = (() => this.OperationResultColor = new SolidColorBrush(Colors.LightGreen));
-            Action action2 = (() => this.OperationResultColor = new SolidColorBrush(Colors.Red));
+            Action action1 = (() => this.ColorResult(i));
             while (true)
             {
                 i++;
                 Op10ProductSerialNumber = Convert.ToString(i);
-                if (i%2==0)
-                {
-                    if (this.OperationResultColor.Dispatcher!=null)
-                    {
-                        this.OperationResultColor.Dispatcher.BeginInvoke(action1);
-                    }
-                   
-                }
-                else
-                {
-                    if (this.OperationResultColor.Dispatcher != null)
-                    {
-                        this.OperationResultColor.Dispatcher.BeginInvoke(action2);
-                    }
-                }
+                OperationResultColor.Dispatcher.BeginInvoke(action1);
                 System.Threading.Thread.Sleep(500);
             }
+        }
+        public void ColorResult(int i)
+        {
+            this.OperationResultColor = (i % 2 == 0) ? new SolidColorBrush(Colors.Red) : new SolidColorBrush(Colors.LightGreen);
         }
 
         public MainWindowViewModel()
