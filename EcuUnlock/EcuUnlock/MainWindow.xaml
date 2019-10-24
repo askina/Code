@@ -17,7 +17,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <controls:UserControl1  Grid.Row="0" Grid.Column="0"/>
+        <controls:UserControl1  Grid.Row="0" Grid.Column="0" ProductSerialNumber="{Binding DataContext.Op10ProductSerialNumber, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" OperationResultColor="{Binding DataContext.OperationResultColor, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" OperationResultText="{Binding DataContext.Op10ProductSerialNumber, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}"/>
         <controls:UserControl1 Grid.Row="0" Grid.Column="1" OperationResultText="{Binding DataContext.Op10ProductSerialNumber, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" />
         <controls:UserControl1 Grid.Row="0" Grid.Column="2" OperationResultColor="{Binding DataContext.OperationResultColor, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" Name="OP30"/>
         <controls:UserControl1 Grid.Row="1" Grid.Column="0" EcuMessage="{Binding DataContext.Op10ProductSerialNumber, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" EcuSerialNumber1="{Binding DataContext.Op10ProductSerialNumber, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:MainWindow}}}" OperationResultColor="Blue" />
