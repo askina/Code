@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="StationConrol.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:StationConrol"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="400">
+    <Border BorderBrush="Black" BorderThickness="3">
+        <Canvas Background="LightBlue" >
+            <Label x:Name="label" Content="Product Serial Number" Canvas.Left="106" Canvas.Top="11" FontSize="15"/>
+            <TextBox x:Name="productSerialNumber" Height="41" Canvas.Left="10" TextWrapping="Wrap" Text="{Binding ProductSerialNumber}" Canvas.Top="44" Width="380" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsReadOnly="True"/>
+            <Label x:Name="label_Copy" Content="ECU Serial Number 1" Canvas.Left="110" Canvas.Top="86" FontSize="15"/>
+            <TextBox x:Name="ecuSerialNumber1" Height="41" Canvas.Left="10" TextWrapping="Wrap" Text="{Binding EcuSerialNumber1}" Canvas.Top="119" Width="380" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsReadOnly="True"/>
+            <Label x:Name="label_Copy1" Content="ECU Serial Number 2" Canvas.Left="110" Canvas.Top="165" FontSize="15"/>
+            <TextBox x:Name="ecuSerialNumber" Height="41" Canvas.Left="10" TextWrapping="Wrap" Text="{Binding EcuSerialNumber2}" Canvas.Top="196" Width="380" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsReadOnly="True"/>
+            <Label x:Name="label_Copy2" Content="ECU Message" Canvas.Left="136" Canvas.Top="237" FontSize="15"/>
+            <TextBox x:Name="ecuMessage" Height="41" Canvas.Left="10" TextWrapping="Wrap" Text="{Binding EcuMessage}" Canvas.Top="271" Width="380" FontSize="25" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" IsReadOnly="True"/>
+            <Label x:Name="label_Copy3" Content="Operation Result" Canvas.Left="126" Canvas.Top="312" FontSize="15"/>
+            <Rectangle Height="41" Canvas.Left="10" Stroke="Black" Canvas.Top="345" Width="380" Name="operationMessage_color" Fill="{Binding OperationResultColor}" />
+            <Label x:Name="operationResultt_text" Canvas.Left="157" Canvas.Top="345" Height="38" FontSize="26" HorizontalAlignment="Center" VerticalContentAlignment="Center" >
+                <TextBlock Text="{Binding OperationResultText}"/>
+            </Label>
+        </Canvas>
+    </Border>
+</UserControl>
